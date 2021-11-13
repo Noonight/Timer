@@ -11,6 +11,11 @@ import RxCocoa
 
 class TimerViewController: UIViewController {
     
+    private lazy var layout: TimerViewData = {
+        let layout = TimerNeumorphismLayout()
+        return layout
+    }()
+    
     var viewModel: TimerViewModel!
     
     override func viewDidLoad() {
@@ -26,7 +31,7 @@ class TimerViewController: UIViewController {
 // MARK: - Setup UI
 private extension TimerViewController {
     func setupUI() {
-        
+        hideNavigationBar(animated: true)
     }
     
     func makeSubviewsLayout() {

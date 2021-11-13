@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1856ABDD273FC53200FAA277 /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABDC273FC53200FAA277 /* ViewController+Ext.swift */; };
+		1856ABE0273FC5DB00FAA277 /* TimerNeumorphismLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABDF273FC5DB00FAA277 /* TimerNeumorphismLayout.swift */; };
+		1856ABE3273FC7E900FAA277 /* TimerViewDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABE2273FC7E900FAA277 /* TimerViewDataFlow.swift */; };
+		1856ABE5273FC99E00FAA277 /* TimerViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABE4273FC99E00FAA277 /* TimerViewData.swift */; };
+		1856ABE8273FCA5000FAA277 /* NeumorphismSquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABE7273FCA5000FAA277 /* NeumorphismSquareButton.swift */; };
+		1856ABEA273FCAB800FAA277 /* NeumorphismLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABE9273FCAB800FAA277 /* NeumorphismLabel.swift */; };
+		1856ABF2273FD06A00FAA277 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1856ABED273FD06A00FAA277 /* Quicksand-Light.ttf */; };
+		1856ABF3273FD06A00FAA277 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1856ABEE273FD06A00FAA277 /* Quicksand-Regular.ttf */; };
+		1856ABF4273FD06A00FAA277 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1856ABEF273FD06A00FAA277 /* Quicksand-SemiBold.ttf */; };
+		1856ABF5273FD06A00FAA277 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1856ABF0273FD06A00FAA277 /* Quicksand-Medium.ttf */; };
+		1856ABF6273FD06A00FAA277 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1856ABF1273FD06A00FAA277 /* Quicksand-Bold.ttf */; };
+		1856ABF8273FD0B500FAA277 /* Shree-Devanagari-714.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1856ABF7273FD0B500FAA277 /* Shree-Devanagari-714.ttf */; };
+		1856ABFA273FD1A200FAA277 /* FontFamilyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABF9273FD1A200FAA277 /* FontFamilyProvider.swift */; };
+		1856ABFC273FD26100FAA277 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABFB273FD26100FAA277 /* AppFont.swift */; };
+		1856ABFE273FD9D300FAA277 /* FontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856ABFD273FD9D300FAA277 /* FontProvider.swift */; };
+		1856AC03273FEAC900FAA277 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856AC02273FEAC900FAA277 /* AppColor.swift */; };
 		C4C44FA9F9C31464A00F279C /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA5D9D5D6068E3DA3D7881D /* Pods_Timer.framework */; };
 		D9812BC4273EBCFD00108613 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9812BC3273EBCFD00108613 /* ViewModelType.swift */; };
 		D9812BC9273EBDBB00108613 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9812BC8273EBDBB00108613 /* TimerViewModel.swift */; };
@@ -19,6 +35,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1856ABDC273FC53200FAA277 /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
+		1856ABDF273FC5DB00FAA277 /* TimerNeumorphismLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerNeumorphismLayout.swift; sourceTree = "<group>"; };
+		1856ABE2273FC7E900FAA277 /* TimerViewDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewDataFlow.swift; sourceTree = "<group>"; };
+		1856ABE4273FC99E00FAA277 /* TimerViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewData.swift; sourceTree = "<group>"; };
+		1856ABE7273FCA5000FAA277 /* NeumorphismSquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismSquareButton.swift; sourceTree = "<group>"; };
+		1856ABE9273FCAB800FAA277 /* NeumorphismLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismLabel.swift; sourceTree = "<group>"; };
+		1856ABED273FD06A00FAA277 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		1856ABEE273FD06A00FAA277 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		1856ABEF273FD06A00FAA277 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		1856ABF0273FD06A00FAA277 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		1856ABF1273FD06A00FAA277 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		1856ABF7273FD0B500FAA277 /* Shree-Devanagari-714.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shree-Devanagari-714.ttf"; sourceTree = "<group>"; };
+		1856ABF9273FD1A200FAA277 /* FontFamilyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamilyProvider.swift; sourceTree = "<group>"; };
+		1856ABFB273FD26100FAA277 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		1856ABFD273FD9D300FAA277 /* FontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProvider.swift; sourceTree = "<group>"; };
+		1856AC02273FEAC900FAA277 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		C8D77C471FF3CFD917F55B08 /* Pods-Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer.release.xcconfig"; path = "Target Support Files/Pods-Timer/Pods-Timer.release.xcconfig"; sourceTree = "<group>"; };
 		CDA5D9D5D6068E3DA3D7881D /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9812BC3273EBCFD00108613 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
@@ -46,6 +78,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1856ABDB273FC52400FAA277 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1856ABDC273FC53200FAA277 /* ViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1856ABDE273FC5C200FAA277 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				1856ABE6273FCA3300FAA277 /* Neumorphism */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		1856ABE1273FC7C800FAA277 /* TimerViewData */ = {
+			isa = PBXGroup;
+			children = (
+				1856ABE2273FC7E900FAA277 /* TimerViewDataFlow.swift */,
+				1856ABE4273FC99E00FAA277 /* TimerViewData.swift */,
+			);
+			path = TimerViewData;
+			sourceTree = "<group>";
+		};
+		1856ABE6273FCA3300FAA277 /* Neumorphism */ = {
+			isa = PBXGroup;
+			children = (
+				1856ABDF273FC5DB00FAA277 /* TimerNeumorphismLayout.swift */,
+				1856ABE7273FCA5000FAA277 /* NeumorphismSquareButton.swift */,
+				1856ABE9273FCAB800FAA277 /* NeumorphismLabel.swift */,
+			);
+			path = Neumorphism;
+			sourceTree = "<group>";
+		};
+		1856ABEB273FCAD700FAA277 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1856ABFB273FD26100FAA277 /* AppFont.swift */,
+				1856ABFD273FD9D300FAA277 /* FontProvider.swift */,
+				1856ABF9273FD1A200FAA277 /* FontFamilyProvider.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1856ABEC273FD04600FAA277 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1856ABF7273FD0B500FAA277 /* Shree-Devanagari-714.ttf */,
+				1856ABF1273FD06A00FAA277 /* Quicksand-Bold.ttf */,
+				1856ABED273FD06A00FAA277 /* Quicksand-Light.ttf */,
+				1856ABF0273FD06A00FAA277 /* Quicksand-Medium.ttf */,
+				1856ABEE273FD06A00FAA277 /* Quicksand-Regular.ttf */,
+				1856ABEF273FD06A00FAA277 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1856AC01273FEAC200FAA277 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				1856AC02273FEAC900FAA277 /* AppColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		39C46FA69E9E33DF8477A455 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +164,7 @@
 		D9812BB5273EBC2C00108613 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1856ABEC273FD04600FAA277 /* Fonts */,
 				D9BA4385273EB748001F6D00 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -93,6 +192,7 @@
 		D9812BBB273EBCA000108613 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1856ABDB273FC52400FAA277 /* Extensions */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -103,6 +203,8 @@
 				D9812BCB273EBEFE00108613 /* TimerNavigator.swift */,
 				D9BA4380273EB747001F6D00 /* TimerViewController.swift */,
 				D9812BC8273EBDBB00108613 /* TimerViewModel.swift */,
+				1856ABE1273FC7C800FAA277 /* TimerViewData */,
+				1856ABDE273FC5C200FAA277 /* Layouts */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -110,6 +212,8 @@
 		D9812BBE273EBCD200108613 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1856AC01273FEAC200FAA277 /* Color */,
+				1856ABEB273FCAD700FAA277 /* Font */,
 				D9812BC7273EBDA700108613 /* ViewControllers */,
 				D9812BC6273EBDA400108613 /* Views */,
 				D9812BC1273EBCED00108613 /* MVVM */,
@@ -228,8 +332,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1856ABF6273FD06A00FAA277 /* Quicksand-Bold.ttf in Resources */,
+				1856ABF2273FD06A00FAA277 /* Quicksand-Light.ttf in Resources */,
+				1856ABF4273FD06A00FAA277 /* Quicksand-SemiBold.ttf in Resources */,
+				1856ABF8273FD0B500FAA277 /* Shree-Devanagari-714.ttf in Resources */,
 				D9BA4389273EB748001F6D00 /* LaunchScreen.storyboard in Resources */,
 				D9BA4386273EB748001F6D00 /* Assets.xcassets in Resources */,
+				1856ABF3273FD06A00FAA277 /* Quicksand-Regular.ttf in Resources */,
+				1856ABF5273FD06A00FAA277 /* Quicksand-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +392,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1856ABEA273FCAB800FAA277 /* NeumorphismLabel.swift in Sources */,
+				1856ABFE273FD9D300FAA277 /* FontProvider.swift in Sources */,
 				D9812BC9273EBDBB00108613 /* TimerViewModel.swift in Sources */,
+				1856ABFC273FD26100FAA277 /* AppFont.swift in Sources */,
+				1856ABDD273FC53200FAA277 /* ViewController+Ext.swift in Sources */,
+				1856ABE5273FC99E00FAA277 /* TimerViewData.swift in Sources */,
 				D9812BC4273EBCFD00108613 /* ViewModelType.swift in Sources */,
+				1856ABFA273FD1A200FAA277 /* FontFamilyProvider.swift in Sources */,
+				1856ABE8273FCA5000FAA277 /* NeumorphismSquareButton.swift in Sources */,
+				1856AC03273FEAC900FAA277 /* AppColor.swift in Sources */,
 				D9BA4381273EB747001F6D00 /* TimerViewController.swift in Sources */,
 				D9BA437D273EB747001F6D00 /* AppDelegate.swift in Sources */,
+				1856ABE0273FC5DB00FAA277 /* TimerNeumorphismLayout.swift in Sources */,
 				D9BA437F273EB747001F6D00 /* SceneDelegate.swift in Sources */,
+				1856ABE3273FC7E900FAA277 /* TimerViewDataFlow.swift in Sources */,
 				D9812BCC273EBEFE00108613 /* TimerNavigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

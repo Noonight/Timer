@@ -17,7 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         let timerViewController = TimerViewController()
         let navigationController = UINavigationController(rootViewController: TimerViewController())
-        window.rootViewController = UINavigationController
+        timerViewController.viewModel = TimerViewModel(navigator: TimerNavigator(navigationController: navigationController))
+        window.rootViewController = navigationController
         window.makeKeyAndVisible()
         self.window = window
     }
