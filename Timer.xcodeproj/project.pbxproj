@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4C44FA9F9C31464A00F279C /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA5D9D5D6068E3DA3D7881D /* Pods_Timer.framework */; };
+		D9812BC4273EBCFD00108613 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9812BC3273EBCFD00108613 /* ViewModelType.swift */; };
+		D9812BC9273EBDBB00108613 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9812BC8273EBDBB00108613 /* TimerViewModel.swift */; };
+		D9812BCC273EBEFE00108613 /* TimerNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9812BCB273EBEFE00108613 /* TimerNavigator.swift */; };
 		D9BA437D273EB747001F6D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA437C273EB747001F6D00 /* AppDelegate.swift */; };
 		D9BA437F273EB747001F6D00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA437E273EB747001F6D00 /* SceneDelegate.swift */; };
-		D9BA4381273EB747001F6D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA4380273EB747001F6D00 /* ViewController.swift */; };
-		D9BA4384273EB747001F6D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BA4382273EB747001F6D00 /* Main.storyboard */; };
+		D9BA4381273EB747001F6D00 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA4380273EB747001F6D00 /* TimerViewController.swift */; };
 		D9BA4386273EB748001F6D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BA4385273EB748001F6D00 /* Assets.xcassets */; };
 		D9BA4389273EB748001F6D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BA4387273EB748001F6D00 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8D77C471FF3CFD917F55B08 /* Pods-Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer.release.xcconfig"; path = "Target Support Files/Pods-Timer/Pods-Timer.release.xcconfig"; sourceTree = "<group>"; };
+		CDA5D9D5D6068E3DA3D7881D /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9812BC3273EBCFD00108613 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		D9812BC8273EBDBB00108613 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		D9812BCB273EBEFE00108613 /* TimerNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerNavigator.swift; sourceTree = "<group>"; };
 		D9BA4379273EB747001F6D00 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BA437C273EB747001F6D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9BA437E273EB747001F6D00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9BA4380273EB747001F6D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9BA4383273EB747001F6D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9BA4380273EB747001F6D00 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		D9BA4385273EB748001F6D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9BA4388273EB748001F6D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9BA438A273EB748001F6D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F15EFEEBF7AD0EDC8852C6 /* Pods-Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer.debug.xcconfig"; path = "Target Support Files/Pods-Timer/Pods-Timer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,113 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C44FA9F9C31464A00F279C /* Pods_Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39C46FA69E9E33DF8477A455 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA5D9D5D6068E3DA3D7881D /* Pods_Timer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		642E60A32B88144CDD21D2D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0F15EFEEBF7AD0EDC8852C6 /* Pods-Timer.debug.xcconfig */,
+				C8D77C471FF3CFD917F55B08 /* Pods-Timer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9812BB5273EBC2C00108613 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9BA4385273EB748001F6D00 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9812BB7273EBC6600108613 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D9BA437C273EB747001F6D00 /* AppDelegate.swift */,
+				D9BA437E273EB747001F6D00 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D9812BB8273EBC8700108613 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D9BA4387273EB748001F6D00 /* LaunchScreen.storyboard */,
+				D9812BBE273EBCD200108613 /* Common */,
+				D9812BBD273EBCB800108613 /* Timer */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D9812BBB273EBCA000108613 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D9812BBD273EBCB800108613 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				D9812BCB273EBEFE00108613 /* TimerNavigator.swift */,
+				D9BA4380273EB747001F6D00 /* TimerViewController.swift */,
+				D9812BC8273EBDBB00108613 /* TimerViewModel.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		D9812BBE273EBCD200108613 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D9812BC7273EBDA700108613 /* ViewControllers */,
+				D9812BC6273EBDA400108613 /* Views */,
+				D9812BC1273EBCED00108613 /* MVVM */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D9812BC1273EBCED00108613 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D9812BC3273EBCFD00108613 /* ViewModelType.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		D9812BC6273EBDA400108613 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9812BC7273EBDA700108613 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D9BA4370273EB747001F6D00 = {
 			isa = PBXGroup;
 			children = (
 				D9BA437B273EB747001F6D00 /* Timer */,
 				D9BA437A273EB747001F6D00 /* Products */,
+				642E60A32B88144CDD21D2D8 /* Pods */,
+				39C46FA69E9E33DF8477A455 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +160,10 @@
 		D9BA437B273EB747001F6D00 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				D9BA437C273EB747001F6D00 /* AppDelegate.swift */,
-				D9BA437E273EB747001F6D00 /* SceneDelegate.swift */,
-				D9BA4380273EB747001F6D00 /* ViewController.swift */,
-				D9BA4382273EB747001F6D00 /* Main.storyboard */,
-				D9BA4385273EB748001F6D00 /* Assets.xcassets */,
-				D9BA4387273EB748001F6D00 /* LaunchScreen.storyboard */,
+				D9812BB7273EBC6600108613 /* App */,
+				D9812BB5273EBC2C00108613 /* Resources */,
+				D9812BBB273EBCA000108613 /* Utilities */,
+				D9812BB8273EBC8700108613 /* Modules */,
 				D9BA438A273EB748001F6D00 /* Info.plist */,
 			);
 			path = Timer;
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BA438D273EB748001F6D00 /* Build configuration list for PBXNativeTarget "Timer" */;
 			buildPhases = (
+				D6488053241876A83218D4D0 /* [CP] Check Pods Manifest.lock */,
 				D9BA4375273EB747001F6D00 /* Sources */,
 				D9BA4376273EB747001F6D00 /* Frameworks */,
 				D9BA4377273EB747001F6D00 /* Resources */,
+				53527DC19DA5633AF0680D9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +230,70 @@
 			files = (
 				D9BA4389273EB748001F6D00 /* LaunchScreen.storyboard in Resources */,
 				D9BA4386273EB748001F6D00 /* Assets.xcassets in Resources */,
-				D9BA4384273EB747001F6D00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53527DC19DA5633AF0680D9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Timer/Pods-Timer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Timer/Pods-Timer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Timer/Pods-Timer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6488053241876A83218D4D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9BA4375273EB747001F6D00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BA4381273EB747001F6D00 /* ViewController.swift in Sources */,
+				D9812BC9273EBDBB00108613 /* TimerViewModel.swift in Sources */,
+				D9812BC4273EBCFD00108613 /* ViewModelType.swift in Sources */,
+				D9BA4381273EB747001F6D00 /* TimerViewController.swift in Sources */,
 				D9BA437D273EB747001F6D00 /* AppDelegate.swift in Sources */,
 				D9BA437F273EB747001F6D00 /* SceneDelegate.swift in Sources */,
+				D9812BCC273EBEFE00108613 /* TimerNavigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D9BA4382273EB747001F6D00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9BA4383273EB747001F6D00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9BA4387273EB748001F6D00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +423,7 @@
 		};
 		D9BA438E273EB748001F6D00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F15EFEEBF7AD0EDC8852C6 /* Pods-Timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +443,7 @@
 		};
 		D9BA438F273EB748001F6D00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D77C471FF3CFD917F55B08 /* Pods-Timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

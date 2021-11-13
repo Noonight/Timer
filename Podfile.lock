@@ -1,0 +1,76 @@
+PODS:
+  - CocoaLumberjack/Core (3.7.2)
+  - CocoaLumberjack/Swift (3.7.2):
+    - CocoaLumberjack/Core
+  - Differentiator (4.0.1)
+  - Realm (10.10.0):
+    - Realm/Headers (= 10.10.0)
+  - Realm/Headers (10.10.0)
+  - RealmSwift (10.10.0):
+    - Realm (= 10.10.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRealm (4.0.3):
+    - Realm (~> 10.5)
+    - RealmSwift (~> 10.5)
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - RealmSwift (~> 10)
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxOptional
+  - RxRealm
+  - RxSwift (~> 5.1.0)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - Differentiator
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxOptional
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Realm: f501df41a4222c67850c77cf135d472192ecf294
+  RealmSwift: c69aadfc7db0d60075178d037c2f34ada73d5201
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
+  RxRealm: 80e8dc97f7b664d9b89192ac850daaa33c34d157
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 29712e9fcc8d18c7f8349136803da8520a692a8c
+
+COCOAPODS: 1.10.2
